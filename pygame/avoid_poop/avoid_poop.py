@@ -60,7 +60,7 @@ poop_speed = 30
 
 # Game font setting (style, size)
 game_font \
-    = pygame.font.Font("", 50)
+    = pygame.font.Font("/Users/moeyg/Desktop/PhythonWorkspace/pygame/avoid_poop/font/DungGeunMo.ttf", 50)
 
 # Total play time
 total_time = 100
