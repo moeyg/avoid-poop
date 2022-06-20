@@ -10,8 +10,8 @@
 
 <br>
 
-## No 1. pygame 🎮
+## 🎮 pygame
 
-### 💩 Poop avoid game
+### Poop avoid game 💩
 
 똥 피하기 게임을 구현해 보았습니다.
