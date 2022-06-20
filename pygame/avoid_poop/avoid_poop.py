@@ -22,12 +22,12 @@ clock = pygame.time.Clock()
 
 # Background
 background \
-    = pygame.image.load("images/background.png")
+    = pygame.image.load("/Users/moeyg/Desktop/PhythonWorkspace/pygame/avoid_poop/images/background.png")
 
 
 # Player sprite
 player \
-    = pygame.image.load("images/player.png")
+    = pygame.image.load("/Users/moeyg/Desktop/PhythonWorkspace/pygame/avoid_poop/images/player.png")
 player_size = player.get_rect().size  # Player size
 player_width = player_size[0]
 player_height = player_size[1]
@@ -45,7 +45,7 @@ to_x = 0
 
 # Poop
 poop \
-    = pygame.image.load("images/poop.png")
+    = pygame.image.load("pygame/avoid_poop/images/poop.png")
 poop_size = poop.get_rect().size  # Poop size
 poop_width = poop_size[0]
 poop_height = poop_size[1]
