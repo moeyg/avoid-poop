@@ -147,3 +147,17 @@ while run:
     if total_time - elapsed_time <= 0:
         print("Time Out!!!")
         running = False
+
+######################################################################################################
+
+    # Draw element
+
+    SCREEN.blit(background, (0, 0))  # Creat background
+    # Creat player
+    SCREEN.blit(player, (player_x_position, player_y_position))
+    # Creat poop
+    SCREEN.blit(poop, (poop_x_position, poop_y_position))
+    # Creat timer
+    SCREEN.blit(timer, (340, 10))
+
+    pygame.display.update()  # Redraw game screen - ESSENTIAL!!
