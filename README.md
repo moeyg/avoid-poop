@@ -13,7 +13,7 @@
 ## 🎮 pygame
 
 ## 1. Poop avoid game 💩
-### 🎞 Game Preview Image
+### 🎞 Preview Image
 <img src="https://github.com/moeyg/PhythonWorkspace/blob/dfa39f80c0712ebaf1e3b1872028f5394cd37723/pygame/avoid_poop/images/game_preview.png" width="300px" />
 
 ### 💬 Comment
