@@ -113,3 +113,22 @@ while run:
     if poop_y_position > SCREEN_HEIGHT:
         poop_y_position = 0
         poop_x_position = random.randint(0, (SCREEN_WIDTH - poop_width))
+
+######################################################################################################
+
+    # Handling collisions between images
+
+    # Rect info update
+    # Player rect info update
+    player_rect = player.get_rect()
+    player_rect.left = player_x_position
+    player_rect.top = player_y_position
+
+    # Poop rect info update
+    poop_rect = poop.get_rect()
+    poop_rect.left = poop_x_position
+    poop_rect.top = poop_y_position
+
+    # Handling collisions
+    if player_rect.colliderect(poop_rect):
+        run = False  # Game quit
