@@ -12,6 +12,6 @@
 
 ## 🎮 pygame
 
-### Poop avoid game 💩
+### 1. Poop avoid game 💩
 
 똥 피하기 게임을 구현해 보았습니다.
