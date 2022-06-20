@@ -161,3 +161,11 @@ while run:
     SCREEN.blit(timer, (340, 10))
 
     pygame.display.update()  # Redraw game screen - ESSENTIAL!!
+
+######################################################################################################
+
+# Time out 2s waiting
+pygame.time.delay(1500)
+
+# Game quit
+pygame.quit()
