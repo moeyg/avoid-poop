@@ -161,8 +161,8 @@ while run:
 
 ######################################################################################################
 
-# Time out 2s waiting
-pygame.time.delay(1500)
+# Time out delay
+pygame.time.delay(2000)
 
 # Game quit
 pygame.quit()
