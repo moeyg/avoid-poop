@@ -67,3 +67,49 @@ total_time = 100
 
 # Start play time
 start_ticks = pygame.time.get_ticks()  # Current ticks
+
+######################################################################################################
+
+# Game loop
+
+run = True
+while run:
+    fps = clock.tick(30)  # FPS
+
+    # Event loop
+    # Event occurrence list
+    for event in pygame.event.get():
+        # X-Box button click event
+        if event.type == pygame.QUIT:
+            run = False  # Game quit
+
+        # Key press event
+        if event.type == pygame.KEYDOWN:
+            # Move to left
+            if event.key == pygame.K_LEFT:
+                to_x -= player_speed
+            # Move to right
+            elif event.key == pygame.K_RIGHT:
+                to_x += player_speed
+
+        # Key non-press event
+        if event.type == pygame.KEYUP:
+            if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
+                to_x = 0  # Stop move
+
+    # Position setting
+
+    # Player position setting
+    player_x_position += to_x * fps
+    # Player horizontal boundary value handling
+    if player_x_position < 0:
+        player_x_position = 0
+    elif player_x_position > SCREEN_WIDTH - player_width:
+        player_x_position = SCREEN_WIDTH - player_width
+
+    # Poop position setting
+    poop_y_position += poop_speed
+    # Poop vertical boundary value handling
+    if poop_y_position > SCREEN_HEIGHT:
+        poop_y_position = 0
+        poop_x_position = random.randint(0, (SCREEN_WIDTH - poop_width))
