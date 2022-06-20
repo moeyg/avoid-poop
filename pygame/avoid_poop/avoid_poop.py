@@ -132,3 +132,18 @@ while run:
     # Handling collisions
     if player_rect.colliderect(poop_rect):
         run = False  # Game quit
+
+######################################################################################################
+
+    # Game time setting
+
+    # Timer
+    # Calculate elapsed time
+    elapsed_time \
+        = (pygame.time.get_ticks() - start_ticks) / 1000  # (Current ticks - Start ticks) / 1000
+    timer \
+        = game_font.render(str(int(total_time - elapsed_time)), True, (0, 0, 0))  # Print value, True, color
+    # Time Out
+    if total_time - elapsed_time <= 0:
+        print("Time Out!!!")
+        running = False
