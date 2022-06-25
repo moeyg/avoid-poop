@@ -55,7 +55,7 @@ poop_x_position = random.randint(0, (SCREEN_WIDTH - poop_width))
 poop_y_position = 0
 
 # Poop speed
-poop_speed = 30
+poop_speed = 20
 
 
 # Game font setting (style, size)
