@@ -14,7 +14,7 @@
 
 ## 1. Poop avoid game 💩
 ### 🎞 Preview Image
-<img src="https://github.com/moeyg/PhythonWorkspace/blob/dfa39f80c0712ebaf1e3b1872028f5394cd37723/pygame/avoid_poop/images/game_preview.png" width="300px" />
+<img src="https://github.com/moeyg/PhythonWorkspace/blob/89b372caab3d3206c0cea01d15568e77505935d4/pygame/avoid_poop/images/game_preview.gif" width="300px" />
 
 ### 💬 Comment
 똥 피하기 게임을 구현해 보았습니다.<br>
