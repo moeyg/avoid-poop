@@ -1,4 +1,4 @@
-# Poop avoid game 💩
+# Avoid poop game 💩
 
 ### 🎞 Preview Image
 <img src="https://github.com/moeyg/PhythonWorkspace/blob/057c57a60402e29a3eb3897d79183b4ce81831a0/pygame/avoid_poop/images/game_preview.gif" />
