@@ -1,18 +1,5 @@
-# Phython Workspace
+# Poop avoid game 💩
 
-| No. | Progress | Finish | Comment                         |
-| --- | -------- | ------ | ------------------------------- |
-| 1   | ✅       |        | pygame으로 여러가지 게임 만들기 |
-| 2   |          |        | 웹 스크래핑 프로그램 만들기     |
-| 3   |          |        | 업무 자동화 프로그램 만들기     |
-| 4   |          |        | 데이터 분석 및 시각화           |
-| 5   |          |        | OpenCV 이미지 처리              |
-
-<br>
-
-## 🎮 pygame
-
-## 1. Poop avoid game 💩
 ### 🎞 Preview Image
 <img src="https://github.com/moeyg/PhythonWorkspace/blob/057c57a60402e29a3eb3897d79183b4ce81831a0/pygame/avoid_poop/images/game_preview.gif" />
 
